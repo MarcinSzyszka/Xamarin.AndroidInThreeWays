@@ -5,12 +5,12 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{5DBBB82E-DE44-431C-AA9A-559EFC0A0697}</ProjectGuid>
+    <ProjectGuid>{EE2732AF-DF93-4D5E-96A4-F33424DC9CFC}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AndroidCodeBehind</RootNamespace>
-    <AssemblyName>AndroidCodeBehind</AssemblyName>
+    <RootNamespace>AndroidMVP</RootNamespace>
+    <AssemblyName>AndroidMVP</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
@@ -74,6 +74,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\AndroidManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AndroidMVP.Presentation\AndroidMVP.Presentation.csproj">
+      <Project>{31ee33ec-9946-4909-8c2b-7920e5ab7080}</Project>
+      <Name>AndroidMVP.Presentation</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

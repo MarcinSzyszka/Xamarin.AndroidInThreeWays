@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidCodeBehind", "AndroidCodeBehind.csproj", "{5DBBB82E-DE44-431C-AA9A-559EFC0A0697}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeBehind", "CodeBehind", "{AF3E90F2-865D-432B-BC24-B728B54E45DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVP", "MVP", "{2D40335B-9B8D-4BBF-A746-B23EBCA8D7E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidMVP.Droid", "..\MVP\AndroidMVP.Droid\AndroidMVP.Droid.csproj", "{EE2732AF-DF93-4D5E-96A4-F33424DC9CFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidMVP.Presentation", "..\MVP\AndroidMVP.Presentation\AndroidMVP.Presentation.csproj", "{31EE33EC-9946-4909-8C2B-7920E5AB7080}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DBBB82E-DE44-431C-AA9A-559EFC0A0697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DBBB82E-DE44-431C-AA9A-559EFC0A0697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DBBB82E-DE44-431C-AA9A-559EFC0A0697}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5DBBB82E-DE44-431C-AA9A-559EFC0A0697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DBBB82E-DE44-431C-AA9A-559EFC0A0697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DBBB82E-DE44-431C-AA9A-559EFC0A0697}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{EE2732AF-DF93-4D5E-96A4-F33424DC9CFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2732AF-DF93-4D5E-96A4-F33424DC9CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE2732AF-DF93-4D5E-96A4-F33424DC9CFC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EE2732AF-DF93-4D5E-96A4-F33424DC9CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE2732AF-DF93-4D5E-96A4-F33424DC9CFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE2732AF-DF93-4D5E-96A4-F33424DC9CFC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{31EE33EC-9946-4909-8C2B-7920E5AB7080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31EE33EC-9946-4909-8C2B-7920E5AB7080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31EE33EC-9946-4909-8C2B-7920E5AB7080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31EE33EC-9946-4909-8C2B-7920E5AB7080}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5DBBB82E-DE44-431C-AA9A-559EFC0A0697} = {AF3E90F2-865D-432B-BC24-B728B54E45DE}
+		{EE2732AF-DF93-4D5E-96A4-F33424DC9CFC} = {2D40335B-9B8D-4BBF-A746-B23EBCA8D7E1}
+		{31EE33EC-9946-4909-8C2B-7920E5AB7080} = {2D40335B-9B8D-4BBF-A746-B23EBCA8D7E1}
+	EndGlobalSection
+EndGlobal
